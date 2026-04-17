@@ -218,17 +218,6 @@ plugins/PlaceAnywhere/
 
 ---
 
-## Comportamento tecnico
-
-- Il plugin intercetta `BlockCanBuildEvent`, `BlockPlaceEvent` e `PlayerInteractEvent`.
-- Per le piante alte (es. girasole, erba alta) piazza automaticamente anche il blocco superiore.
-- Per le torce, se il click avviene su una parete laterale, usa la variante "a muro" corretta (es. `WALL_TORCH` invece di `TORCH`).
-- Il bambù viene piazzato senza foglie (`Bamboo.Leaves.NONE`) per semplicità.
-- I blocchi force-piazzati sono temporaneamente registrati internamente per sopprimere gli eventi di fisica vanilla che li rimuoverebbero immediatamente.
-- In modalità Survival, l'oggetto viene consumato correttamente dall'inventario.
-
----
-
 ## Compatibilità
 
 - **Paper 1.20+** (consigliato)
