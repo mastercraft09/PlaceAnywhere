@@ -7,7 +7,7 @@
 
 ---
 
-PlaceAnywhere è un plugin Bukkit/Paper che permette ai giocatori autorizzati di piazzare piante, fiori, decorazioni e altri blocchi "ristretti" su qualsiasi superficie, ignorando le regole di piazzamento vanilla di Minecraft. Ad esempio, puoi mettere un fiore su una tavola di legno, un fungo sotto la luce diretta, oppure del corallo fuori dall'acqua.
+PlaceAnywhere è un plugin Bukkit/Paper che permette ai giocatori autorizzati di piazzare piante, fiori, decorazioni e altri blocchi "ristretti" su qualsiasi superficie, ignorando le regole di piazzamento vanilla di Minecraft..
 
 ---
 
