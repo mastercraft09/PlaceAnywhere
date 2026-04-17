@@ -7,7 +7,7 @@
 
 ---
 
-PlaceAnywhere is a Bukkit/Paper plugin that allows authorized players to place plants, flowers, decorations, and other "restricted" blocks on any surface, ignoring Minecraft's vanilla placement rules. For example, you can place a flower on a wooden plank, a mushroom under direct light, or coral outside of water.
+PlaceAnywhere is a Bukkit/Paper plugin that allows authorized players to place plants, flowers, decorations, and other "restricted" blocks on any surface, ignoring Minecraft's vanilla placement rules.
 
 ---
 
@@ -215,17 +215,6 @@ plugins/PlaceAnywhere/
 ├── config.yml       ← Main configuration
 └── playerdata.yml   ← Persistent player data (only in PERSISTENT mode)
 ```
-
----
-
-## Technical behavior
-
-- The plugin intercepts `BlockCanBuildEvent`, `BlockPlaceEvent`, and `PlayerInteractEvent`.
-- For tall plants (e.g. sunflower, tall grass), it automatically places the upper block as well.
-- For torches, if the click occurs on a side wall, it uses the correct wall variant (e.g. `WALL_TORCH` instead of `TORCH`).
-- Bamboo is placed without leaves (`Bamboo.Leaves.NONE`) for simplicity.
-- Force-placed blocks are temporarily tracked internally to suppress vanilla physics events that would immediately remove them.
-- In Survival mode, the item is properly consumed from the inventory
 
 ---
 
