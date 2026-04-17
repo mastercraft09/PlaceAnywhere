@@ -225,7 +225,7 @@ plugins/PlaceAnywhere/
 - For torches, if the click occurs on a side wall, it uses the correct wall variant (e.g. `WALL_TORCH` instead of `TORCH`).
 - Bamboo is placed without leaves (`Bamboo.Leaves.NONE`) for simplicity.
 - Force-placed blocks are temporarily tracked internally to suppress vanilla physics events that would immediately remove them.
-- In Survival mode, the item is properly consumed from the inventory.
+- In Survival mode, the item is properly consumed from the inventory
 
 ---
 
